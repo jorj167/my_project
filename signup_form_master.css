@@ -1,0 +1,161 @@
+.background_img{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: hsl(0, 100%, 74%);
+    background-clip:border-box; 
+}
+*{
+    box-sizing:border-box;
+}
+.text_1{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    font-family: 'Poppins', sans-serif;
+    
+    position:relative;
+    width: 350px;
+    height: auto;
+
+    font-size: 46px;
+    color: white;
+    font-style: normal;
+    text-align: justify;
+    top: 190px;
+    left: 140px;
+  /*  border:2px solid rgb(240, 240, 11); */
+}
+.text_2{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    font-family: 'Poppins', sans-serif;
+    
+    position:relative;
+    width: 440px;
+    height: auto;
+
+    font-size: 16px;
+    color: hsl(246, 25%, 77%);
+    font-style: normal;
+    text-align: justify;
+    top: 190px;
+    left: 140px;
+  /*  border:2px solid rgb(240, 240, 11); */
+}
+.free_7_days {
+    position: relative;  
+    width: 550px;
+    height:auto; 
+    left: 700px;
+    bottom: 200px;
+    
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 15px;
+   /* */ border:2px solid hsl(248, 32%, 49%); 
+   box-shadow:0px 8px 12px 0px #9e9b9b;
+}
+.free_7_days_center   {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    font-family: 'Poppins', sans-serif;
+    
+    color: hsl(246, 25%, 77%);
+    font-size: 18px;
+    display: flex;
+    height:15px;
+
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    border:2px solid hsl(248, 32%, 49%);
+   /* */  
+}
+.free_7_days_color { 
+    color: white;
+}
+.registracion_form_1{
+  position: relative;
+  width: 550px;
+  height:min-content; /*  323px  */
+  
+  left: 700px;
+  bottom: 160px;
+
+  background-color: white;
+  border-radius: 15px;
+  box-shadow:0px 8px 12px 0px #9e9b9b;
+}
+.registracion_form_2{
+  position:relative;
+display: grid;
+/*
+grid-row-gap: 1px; */
+grid-template-rows: 30px 50px 20px 50px 20px 50px 20px 50px 20px 50px 50px;
+grid-template-columns: 500px;
+
+justify-content:space-evenly;
+justify-content: space-around;
+}
+.col_or{
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 7px;
+}
+.Terms_Services_1{
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  font-family: 'Poppins', sans-serif;
+  
+  color: hsl(246, 25%, 77%);
+  font-size: 12px;
+  display: flex;
+  height:15px;
+
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+}
+.Terms_Services_2{
+  color: red;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+  .free_7_days::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
